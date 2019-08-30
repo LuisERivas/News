@@ -1,14 +1,14 @@
 import React, {Component} from 'react'
 import { Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import { BrowserRouter } from 'react-router-dom'
+
 
 class SiteNavBar extends Component {
     render(){
         return(
             <Navbar bg='dark'>
                 <Navbar.Brand>
-                    <BrowserRouter>
+                    
                     <Link className='text-light' to='/'>
                     <img
                         alt='Logo'
@@ -19,8 +19,10 @@ class SiteNavBar extends Component {
                     />
                     Martinez News Bruh
                     </Link>
-                    </BrowserRouter>
                 </Navbar.Brand>
+                <div className=''>
+                    {this.props.actionButtons}
+                </div>
             </Navbar>
 
         )
