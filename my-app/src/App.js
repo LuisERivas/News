@@ -3,13 +3,23 @@ import logo from './logo.svg';
 import './App.css';
 import SiteNavBar from './components/SiteNavBar'
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
+import HomeButton from './components/Buttons/HomeButton';
+import { Row } from 'react-bootstrap'
+
 
 function App() {
   return (
     <div className="App">
-      <SiteNavBar>
-
-      </SiteNavBar>
+      <BrowserRouter>
+      <SiteNavBar
+        
+          actionButtons={
+          <Row>
+            <HomeButton/>
+          </Row>
+            }
+        
+      /> 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -24,6 +34,7 @@ function App() {
           Learn React
         </a>
       </header> */}
+      </BrowserRouter>
     </div>
   );
 }
