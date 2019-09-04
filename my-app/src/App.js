@@ -4,6 +4,7 @@ import './App.css';
 import SiteNavBar from './components/SiteNavBar'
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 import HomeButton from './components/Buttons/HomeButton';
+import LogInButton from './components/Buttons/LoginButton';
 import { Row } from 'react-bootstrap'
 
 
@@ -16,6 +17,7 @@ function App() {
           actionButtons={
           <Row>
             <HomeButton/>
+            <LogInButton/>
           </Row>
             }
         
