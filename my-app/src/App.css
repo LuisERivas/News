@@ -22,3 +22,6 @@
 .whiteText{
   color: white;
 }
+.link:hover{
+color:rgb(57, 206, 131);
+}

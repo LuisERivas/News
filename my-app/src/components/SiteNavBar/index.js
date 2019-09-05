@@ -9,7 +9,7 @@ class SiteNavBar extends Component {
             <Navbar className='nav' >
                 <Navbar.Brand className='navBrand'>
                     
-                    <Link className='whiteText' to='/'>
+                    <Link className='whiteText link' to='/'>
                     <img
                         alt='Logo'
                         src= {process.env.PUBLIC_URL + '/logo192.png'}
@@ -22,13 +22,13 @@ class SiteNavBar extends Component {
                 </Navbar.Brand>
                 <Nav className='navLinkCluster'>
                         <Nav.Link>
-                            <Link className='navLinks' to='/' >Home</Link>
+                            <Link className='navLinks link' to='/' >Home</Link>
                         </Nav.Link>
                         <Nav.Link>
-                            <Link className='navLinks' to='/shop' >Shop</Link>
+                            <Link className='navLinks link' to='/shop' >Shop</Link>
                         </Nav.Link>
                         <Nav.Link>
-                            <Link className='navLinks' to='/login' >Login</Link>
+                            <Link className='navLinks link' to='/login' >Login</Link>
                         </Nav.Link>
                         
                 </Nav>        
