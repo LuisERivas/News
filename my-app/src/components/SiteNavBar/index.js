@@ -22,13 +22,13 @@ class SiteNavBar extends Component {
                 </Navbar.Brand>
                 <Nav className='navLinkCluster'>
                         <Nav.Link>
-                            <Link className='navLinks'>Home</Link>
+                            <Link className='navLinks' to='/' >Home</Link>
                         </Nav.Link>
                         <Nav.Link>
-                            <Link className='navLinks'>Shop</Link>
+                            <Link className='navLinks' to='/shop' >Shop</Link>
                         </Nav.Link>
                         <Nav.Link>
-                            <Link className='navLinks'>Login</Link>
+                            <Link className='navLinks' to='/login' >Login</Link>
                         </Nav.Link>
                         
                 </Nav>        

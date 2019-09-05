@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import SiteNavBar from './components/SiteNavBar'
+import Shop from './components/Shop'
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 
 import { Row } from 'react-bootstrap'
@@ -12,7 +12,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <SiteNavBar/> 
-      
+        <Switch>
+          {/* <Route path='/' exact component={Home}/> */}
+          <Route path='/shop' component={Shop} />
+        </Switch>
       </BrowserRouter>
     </div>
   );
