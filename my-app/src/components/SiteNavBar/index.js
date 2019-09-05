@@ -1,15 +1,15 @@
 import React, {Component} from 'react'
-import { Navbar } from 'react-bootstrap'
+import { Navbar,Nav } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-
+import { BrowserRouter } from 'react-router-dom'
 
 class SiteNavBar extends Component {
     render(){
         return(
-            <Navbar bg='dark'>
-                <Navbar.Brand>
+            <Navbar className='nav' >
+                <Navbar.Brand className='navBrand'>
                     
-                    <Link className='text-light' to='/'>
+                    <Link className='whiteText' to='/'>
                     <img
                         alt='Logo'
                         src= {process.env.PUBLIC_URL + '/logo192.png'}
@@ -20,9 +20,18 @@ class SiteNavBar extends Component {
                     Martinez News Bruh
                     </Link>
                 </Navbar.Brand>
-                <div className=''>
-                    {this.props.actionButtons}
-                </div>
+                <Nav className='navLinkCluster'>
+                        <Nav.Link>
+                            <Link className='navLinks'>Home</Link>
+                        </Nav.Link>
+                        <Nav.Link>
+                            <Link className='navLinks'>Shop</Link>
+                        </Nav.Link>
+                        <Nav.Link>
+                            <Link className='navLinks'>Login</Link>
+                        </Nav.Link>
+                        
+                </Nav>        
             </Navbar>
 
         )
