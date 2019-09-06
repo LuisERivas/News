@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import MainArticleCard from '../MainArticleCard/index.js'
+
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
+import ArticleCard1 from '../ArticleCard1/index.js'
 
 class LatestNewsCluster extends Component{
     render(){
@@ -9,9 +11,9 @@ class LatestNewsCluster extends Component{
                 <div className='col-8 bg-primary p-0'>
                     <MainArticleCard/>
                 </div>
-                <div className='col-4 bg-dark'>
-                    <div className='row bg-light'>
-                        spoink
+                <div className='col-4 bg-dark p-0'>
+                    <div className='row bg-light m-0 container '>
+                        <ArticleCard1/>
                     </div>
                     <div className='row bg-light'>
                         parf
