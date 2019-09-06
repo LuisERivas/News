@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 class SiteNavBar extends Component {
     render(){
         return(
-            <Navbar className='nav' >
+            <Navbar className='nav container' >
                 <Navbar.Brand className='navBrand'>
                     
                     <Link className='whiteText link' to='/'>
