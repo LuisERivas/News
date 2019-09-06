@@ -1,10 +1,16 @@
 import React, {Component} from 'react'
-
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
+import MainAdvert from '../MainAdvertisment'
+import LatestNewsCluster from '../latestNews'
 
 class Home extends Component{
     render(){
         return (
-            <h1>la Casa Dude</h1>
+            <div className="App">
+                <MainAdvert/>
+                <hr className='container'></hr>
+                <LatestNewsCluster/>
+            </div>
         )
     }
 }
