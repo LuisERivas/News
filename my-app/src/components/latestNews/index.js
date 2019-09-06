@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import MainArticleCard from '../MainArticleCard/index.js'
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 
 class LatestNewsCluster extends Component{
@@ -6,7 +7,7 @@ class LatestNewsCluster extends Component{
         return (            
             <div className='row bg-danger container m-auto'>
                 <div className='col-8 bg-primary p-0'>
-                    Main article card
+                    <MainArticleCard/>
                 </div>
                 <div className='col-4 bg-dark'>
                     <div className='row bg-light'>
