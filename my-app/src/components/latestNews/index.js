@@ -24,20 +24,6 @@ class LatestNewsCluster extends Component{
                         <ArticleCard3/>
                     </div>
                 </div>
-                <div className='row container'>
-                    <div class='col'>
-                        spork
-                    </div>
-                    <div class='col'>
-                        fork
-                    </div>
-                    <div class='col'>
-                        mork
-                    </div>
-                    <div class='col'>
-                        pork
-                    </div>
-                </div>
             </div>
         )
     }
