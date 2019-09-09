@@ -8,7 +8,7 @@ class ArticleCard1 extends Component{
         return (
             <div className="">
                 <Card>
-                    <Card.Img variant="top" src="https://via.placeholder.com/600x600" className='latestArticle1Card' />
+                    <Card.Img variant="top" src="https://via.placeholder.com/300x300" className='latestArticle1Card' />
                     <Card.Body>
                         <Card.Text>
                             Text From article will go here
