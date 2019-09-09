@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import MainArticleCard from '../MainArticleCard/index.js'
 import SecondaryArticleCard1 from '../SecondaryArticle1'
 import SecondaryArticleCard2 from '../SecondaryArticle2'
 import SecondaryArticleCard3 from '../SecondaryArticle3'
