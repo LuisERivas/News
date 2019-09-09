@@ -8,10 +8,11 @@ class SecondaryArticleCard4 extends Component{
         return (
             <div className="">
                 <Card>
-                    <Card.Img variant="top" src="https://via.placeholder.com/600x600" className='imageSize' />
+                    <Card.Img variant="top" src="https://via.placeholder.com/245x245" className='imageSize' />
                     <Card.Body>
                         <Card.Text>
-                            Baroof
+                        Preview text will go here
+
                         </Card.Text>
                     </Card.Body>
                 </Card>
