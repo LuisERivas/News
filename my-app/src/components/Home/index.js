@@ -4,6 +4,7 @@ import MainAdvert from '../MainAdvertisment'
 import LatestNewsCluster from '../latestNews'
 import SecondaryNewsCluster from '../SecondaryNewsCluster'
 import SubscribeCluster from '../SubscribeCluster'
+import OldNewsCluster from '../OldNewsCluster'
 
 class Home extends Component{
     render(){
@@ -15,6 +16,8 @@ class Home extends Component{
                 <SubscribeCluster/>
                 <hr className='container'></hr>
                 <SecondaryNewsCluster/>
+                <hr className='container'></hr>
+                <OldNewsCluster/>
             </div>
         )
     }
