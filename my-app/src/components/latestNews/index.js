@@ -9,8 +9,8 @@ import ArticleCard3 from '../ArticleCard3/index.js'
 class LatestNewsCluster extends Component{
     render(){
         return (            
-            <div className='row bg-danger container m-auto'>
-                <div className='col-8 bg-primary p-0'>
+            <div className='row bg-light container m-auto'>
+                <div className='col-8 bg-light p-0'>
                     <MainArticleCard/>
                 </div>
                 <div className='col-4 bg-dark p-0'>

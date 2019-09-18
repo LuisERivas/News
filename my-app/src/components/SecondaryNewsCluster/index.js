@@ -9,7 +9,7 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 class SecondaryNewsCluster extends Component{
     render(){
         return (            
-            <div className='row bg-danger container m-auto'>
+            <div className='row bg-light container m-auto'>
                 <div className='col bg-light m-0 container'>
                     <SecondaryArticleCard1/>
                 </div>
