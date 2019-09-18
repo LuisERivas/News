@@ -5,7 +5,8 @@ import LatestNewsCluster from '../latestNews'
 import SecondaryNewsCluster from '../SecondaryNewsCluster'
 import SubscribeCluster from '../SubscribeCluster'
 import OldNewsCluster from '../OldNewsCluster'
-
+import SocialMediaCluster from '../SocialMediaCluster'
+import { Row, Col } from 'react-bootstrap'
 class Home extends Component{
     render(){
         return (
@@ -15,9 +16,19 @@ class Home extends Component{
                 <LatestNewsCluster/>
                 <SubscribeCluster/>
                 <hr className='container'></hr>
+                <h2>Just last Week</h2>
                 <SecondaryNewsCluster/>
                 <hr className='container'></hr>
-                <OldNewsCluster/>
+                <h2>Latest News</h2>
+                <Row className='container m-auto p-0 bg-danger'>
+                    <Col className='col-8 float-left p-0'>
+                        <OldNewsCluster/>
+                    </Col>    
+                    <Col className='col-4 float-right p-0 d-flex'>
+                        <SocialMediaCluster/>
+                    </Col>
+                </Row>
+                
             </div>
         )
     }

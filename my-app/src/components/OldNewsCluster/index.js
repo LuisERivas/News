@@ -12,8 +12,8 @@ import OldNewsCard4 from '../OldNewsArticle2/index.js'
 class OldNewsCluster extends Component{
     render(){
         return (            
-            <div className='row bg-light container m-auto'>
-                <div className='col-8 bg-dark p-0'>
+            <div className='bg-light container m-auto'>
+                <div className='bg-dark p-0'>
                     <div className='row bg-light m-0 container '>
                         <OldNewsCard1/>
                     </div>
