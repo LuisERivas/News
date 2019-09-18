@@ -7,6 +7,8 @@ import SubscribeCluster from '../SubscribeCluster'
 import OldNewsCluster from '../OldNewsCluster'
 import SocialMediaCluster from '../SocialMediaCluster'
 import { Row, Col } from 'react-bootstrap'
+import SecondaryAdvert from '../SecondaryAdvertisment'
+
 class Home extends Component{
     render(){
         return (
@@ -28,7 +30,8 @@ class Home extends Component{
                         <SocialMediaCluster/>
                     </Col>
                 </Row>
-                
+                <hr className='container'></hr>
+                <SecondaryAdvert/>
             </div>
         )
     }
